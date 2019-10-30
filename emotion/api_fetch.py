@@ -8,9 +8,9 @@ import datetime
 from aip import AipNlp
 
 
-APP_ID = '17648580'
-API_KEY = 'h0mES7OVPf3w7T9fWyCZ23go'
-SECRET_KEY = 'FWCFxmPiI79b6jEvT8YdXiduURhAduUF'
+APP_ID = 'xxxx'
+API_KEY = 'xxxx'
+SECRET_KEY = 'xxxx'
 
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
