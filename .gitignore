@@ -1,3 +1,4 @@
 .idea/
 *.log
 *.pdf
+__pycache__/
