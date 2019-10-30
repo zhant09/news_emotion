@@ -12,5 +12,5 @@ SECRET_KEY = 'FWCFxmPiI79b6jEvT8YdXiduURhAduUF'
 
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
-text = "苹果是一家伟大的公司"
+text = "薅羊毛薅出“羊圈生态”，羊毛党不只贪小便宜"
 print(client.sentimentClassify(text))
