@@ -23,4 +23,6 @@ with open("./tutorial/qq-title.2019-10-30") as rf:
 
 print(datetime.datetime.now())
 for text in result:
-    print(client.sentimentClassify(text)['items'][0]['sentiment'])
+    resp = client.sentimentClassify(text)['items'][0]
+    print(text + "\t" + str(resp["confidence"]) + "\t" + str(resp["sentiment"]) + "\t" + str(resp["negative_prob"]))
+print(datetime.datetime.now())
